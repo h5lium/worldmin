@@ -1,7 +1,8 @@
 /.project
 /.idea
-/*.zip
-/*.txt
+**/*.zip
+**/*.txt
+**/*.log
 /npm-debug.log
-/node_modules/
+/node_modules
 /tmp
