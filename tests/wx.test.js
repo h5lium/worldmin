@@ -6,7 +6,7 @@ var request = require('request'),
 
 request({
 	method: 'POST',
-	url: 'http://localhost:'+ config.port + config.wxPath,
+	uri: 'http://localhost:'+ config.port + config.wxPath,
 	body: wxParser.toXml({
 		toUserName: 'aaa',
 		fromUserName: 'ccc',
