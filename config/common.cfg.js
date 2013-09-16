@@ -2,9 +2,11 @@
 var _ = require('underscore');
 
 module.exports = function(config) {
+	var rootDir = __dirname + '/..';
 	return _.extend(config, {
 		timezoneOffset: 8,
-		staticDir: __dirname + '/../static',
+		rootDir: rootDir,
+		staticDir: rootDir + '/static',
 		wxToken: 'min',
 		wxPath: '/wx'
 	});
