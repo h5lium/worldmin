@@ -10,7 +10,8 @@
 		"bufferhelper": "0.2.0",
 		"domino": "1.0.11",
 		"zepto-node": "1.0.0",
-		"mkdirp": "0.3.5"
+		"mkdirp": "0.3.5",
+		"taffydb": "2.7.2"
 	},
 	"devDependencies": {
 		"request": "2.27.0"

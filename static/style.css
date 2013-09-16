@@ -1,0 +1,7 @@
+
+@import url("./lib/bootstrap/3.0.0/css/bootstrap.min.css");
+@import url("./lib/bootstrap/3.0.0/css/bootstrap-theme.min.css");
+
+body {
+	font-family: "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
