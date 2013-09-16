@@ -1,0 +1,18 @@
+{
+	"name": "worldmin",
+	"description": "An online site with support for Weixin, based on Node.js",
+	"version": "0.0.1",
+	"main": "app.js",
+	"dependencies": {
+		"underscore": "1.4.4",
+		"express": "3.4.0",
+		"mongodb": "1.3.19",
+		"bufferhelper": "0.2.0",
+		"domino": "1.0.11",
+		"zepto-node": "1.0.0",
+		"mkdirp": "0.3.5"
+	},
+	"devDependencies": {
+		"request": "2.27.0"
+	}
+}
