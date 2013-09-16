@@ -18,7 +18,7 @@ app.configure(function() {
 	app.use(express.bodyParser({uploadDir: config.uploadDir}));
 	app.use(express.cookieParser());
 	app.use(express.session({secret: config.secret}));
-	app.use(express.static(config.publicDir));
+	app.use(express.static(config.staticDir));
 });
 app.configure('development', function() {
 	app.use(express.errorHandler({dumpExceptions: true, showStack: true}));

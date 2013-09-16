@@ -11,6 +11,6 @@ module.exports = function(config) {
 			name: 'worldmin'
 		},
 		secret: 'abc',
-		tmpDir: __dirname + '/../tmp'
+		tmpDir: config.staticDir + '/tmp'
 	});
 }
